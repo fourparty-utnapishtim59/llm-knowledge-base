@@ -25,6 +25,7 @@ The core idea: you collect raw source material. The LLM compiles it into a struc
 | [`docs/why-not-rag.md`](./docs/why-not-rag.md) | When to use a compiled wiki vs a vector RAG stack |
 | [`docs/learning-layer.md`](./docs/learning-layer.md) | How the spaced repetition and gap tracking system works |
 | [`docs/contamination-mitigation.md`](./docs/contamination-mitigation.md) | Preventing quality degradation in agent-generated wikis |
+| [`docs/finetune-path.md`](./docs/finetune-path.md) | Turning your wiki into a fine-tuning corpus |
 
 ---
 
@@ -168,6 +169,18 @@ Agent-generated content carries quality risk. The schema implements a sandbox-fi
 - The linting workflow quarantines contradictory articles with a `status: quarantined` flag
 
 Think of it like a data pipeline: `output/` is staging, `wiki/` is production.
+
+---
+
+## Finetune path
+
+As your wiki grows and is repeatedly linted, it becomes a progressively cleaner, deduplicated, consistently-styled representation of your research domain. At that point it is more than a context store — it is a candidate training corpus.
+
+The `learning/flashcards/` directory generates structured Q&A pairs automatically. Combined with the concept articles and summaries, this gives you the raw material for supervised fine-tuning of a smaller, domain-specialised model.
+
+Tools for this path: [Distilabel](https://github.com/argilla-io/distilabel) for synthetic data generation, [Unsloth](https://github.com/unslothai/unsloth) or [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) for LoRA fine-tuning.
+
+[Full finetune guide →](./docs/finetune-path.md)
 
 ---
 
